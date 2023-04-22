@@ -1,0 +1,32 @@
+.example-card {
+    max-width: 400px;
+  }
+#categoty{
+  display: inline;
+  background-color: rgba(135, 137, 139,0.5);
+  padding: 5px;
+  border-radius: 15px;
+  
+}
+#main{
+  padding: 10px;
+}
+#divvv{
+ 
+    box-shadow: 2px 2px 2px 2px lightblue;
+    margin-top: 20px;
+display: inline-block;
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 305px;
+    height: 350px;
+    border-radius: 8px;
+
+
+
+}

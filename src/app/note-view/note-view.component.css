@@ -1,0 +1,29 @@
+#search1{
+    position: relative;
+    bottom: 403px;
+    left: 750px;
+}
+#searchicon{
+    position: relative;
+    bottom: 330px;
+    left: 1050px;
+}
+button{
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 1400px;
+}
+#search{
+    position: relative;
+    left: 500px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+#icon{
+    position: relative;
+    bottom: 30px;
+    left: 860px;
+}

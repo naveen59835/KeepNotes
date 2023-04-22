@@ -1,0 +1,44 @@
+
+  
+    <span id="divvv">
+        <span class="col-lg-3 m-2 p-3 mb-5 bg-white rounded" >
+            <div id="main">
+            <mat-card class="example-card">
+            <mat-card-title>{{contact?.title}}</mat-card-title>
+            <span [ngSwitch]="contact?.priority">
+                <span *ngSwitchCase="'Critical'"><mat-icon color="warn" fontIcon="gpp_maybe">gpp_maybe</mat-icon></span>
+                <span *ngSwitchCase="'High'"><mat-icon color="warn" fontIcon="arrow_circle_up">arrow_circle_up</mat-icon></span>
+                <span *ngSwitchCase="'Low'"><mat-icon color="primary" fontIcon="arrow_circle_down">arrow_circle_down</mat-icon></span>
+                <span *ngSwitchCase="'Medium'"><mat-icon color="primary"  fontIcon="remove_circle_outline">remove_circle_outline</mat-icon></span>
+              </span>
+            <mat-card-content>
+                <p class="text-center">{{contact?.content}}</p>
+                <mat-card-subtitle>{{contact?.date}}</mat-card-subtitle>
+                <button id="btn">{{contact?.category}}</button>
+               
+
+            </mat-card-content>
+            <mat-accordion>
+                <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+
+                </mat-expansion-panel-header>
+                <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                    <mat-icon style="color:rgb(40,40,160);">bookmarks</mat-icon>
+                </button>
+
+                <a routerLink="../edit-note/{{contact?.id}}">
+                  <button color="warn" mat-icon-button><mat-icon>edit</mat-icon></button></a><a routerLink="../edit-note/{{contact?.id}}">
+                  <button color="accent" mat-icon-button><mat-icon>delete</mat-icon></button></a>
+
+                <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                    <mat-icon style="color:rgb(40,40,160);">notifications</mat-icon>
+                </button>
+            </mat-expansion-panel>
+            </mat-accordion>
+        </mat-card>
+    </div>
+        </span>
+    </span> 
+
+    

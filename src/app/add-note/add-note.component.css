@@ -1,0 +1,116 @@
+#blog-input {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    width: 16vw;
+    text-align: center;
+    margin: 2px;
+    border: 2px solid black;
+    margin-right: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 200px;
+    height: 18vw;
+    top: 0px;
+    bottom: 100px;
+
+
+
+}
+
+#blog-input>div {
+    margin: 10px;
+}
+
+#blog-input > div > input {
+    width: 45%;
+    border:none;
+    line-height: 50px;
+    font-size: 2.5em;
+}
+
+#blog-input > div > button {
+    width: 70px;
+    padding: 6px 5px;
+    border-radius: 10px;
+    color: navy;
+}
+#addd{
+
+    position: relative;
+    top: -20px;
+    left: 80px;
+    width: fit-content;
+    font-size: 10px;
+
+
+}
+#blog-input{
+    position: relative;
+    bottom: 100px;
+}
+.example-action-buttons {
+    padding-bottom: 20px;
+  }
+
+  .example-headers-align .mat-expansion-panel-header-description {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .example-headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+    margin-left: 8px;
+  }
+mat-expansion-panel{
+    width: 600px;
+    position: relative;
+    bottom: 850px;
+    left: 400px;
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  mat-form-field {
+    margin-right: 12px;
+  }
+  #card{
+    border: 3px solid rgb(178, 154, 239);
+    width: 390px;
+    padding: 5px;
+    padding-left: 40px;
+    margin-left: 600px;
+    border-radius: 5px;
+}
+
+#btn{
+    border-radius: 50%;
+    margin-left: 1400px;
+    margin-top: 200px;
+}
+
+.field{
+    width: 100%;
+}
+
+#form{
+    width: 600px;
+    margin: auto;
+    margin-top: -200px;
+}
+.example-form-field {
+    margin-right: 20px;
+  }
+
+  mat-icon{
+    border-radius: 50%;
+  }
+  mat-accordion{
+    position: relative;
+    left: 500px;
+    bottom: 80px;
+  }
+  example-headers-align
+{
+  position: relative;
+  top: -200px;
+}
